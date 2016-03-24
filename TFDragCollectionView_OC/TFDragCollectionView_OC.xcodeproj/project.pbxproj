@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		896603BF1CA3CD06002D99F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603BE1CA3CD06002D99F7 /* main.m */; };
+		896603C21CA3CD06002D99F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603C11CA3CD06002D99F7 /* AppDelegate.m */; };
+		896603C51CA3CD06002D99F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603C41CA3CD06002D99F7 /* ViewController.m */; };
+		896603C81CA3CD06002D99F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896603C61CA3CD06002D99F7 /* Main.storyboard */; };
+		896603CA1CA3CD06002D99F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896603C91CA3CD06002D99F7 /* Assets.xcassets */; };
+		896603CD1CA3CD06002D99F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896603CB1CA3CD06002D99F7 /* LaunchScreen.storyboard */; };
+		896603D81CA3CD07002D99F7 /* TFDragCollectionView_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603D71CA3CD07002D99F7 /* TFDragCollectionView_OCTests.m */; };
+		896603E31CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603E21CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.m */; };
+		896603F31CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603F21CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.m */; };
+		896603F61CA3D17F002D99F7 /* TFDragCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 896603F51CA3D17F002D99F7 /* TFDragCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		896603D41CA3CD07002D99F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896603B21CA3CD06002D99F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896603B91CA3CD06002D99F7;
+			remoteInfo = TFDragCollectionView_OC;
+		};
+		896603DF1CA3CD07002D99F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896603B21CA3CD06002D99F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896603B91CA3CD06002D99F7;
+			remoteInfo = TFDragCollectionView_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		896603BA1CA3CD06002D99F7 /* TFDragCollectionView_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFDragCollectionView_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		896603BE1CA3CD06002D99F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		896603C01CA3CD06002D99F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		896603C11CA3CD06002D99F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		896603C31CA3CD06002D99F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		896603C41CA3CD06002D99F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		896603C71CA3CD06002D99F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		896603C91CA3CD06002D99F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		896603CC1CA3CD06002D99F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		896603CE1CA3CD06002D99F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896603D31CA3CD07002D99F7 /* TFDragCollectionView_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFDragCollectionView_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896603D71CA3CD07002D99F7 /* TFDragCollectionView_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDragCollectionView_OCTests.m; sourceTree = "<group>"; };
+		896603D91CA3CD07002D99F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896603DE1CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFDragCollectionView_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896603E21CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDragCollectionView_OCUITests.m; sourceTree = "<group>"; };
+		896603E41CA3CD07002D99F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896603F11CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDragCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		896603F21CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDragCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		896603F41CA3D17F002D99F7 /* TFDragCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDragCollectionViewCell.h; sourceTree = "<group>"; };
+		896603F51CA3D17F002D99F7 /* TFDragCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDragCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896603B71CA3CD06002D99F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603D01CA3CD07002D99F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603DB1CA3CD07002D99F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		896603B11CA3CD06002D99F7 = {
+			isa = PBXGroup;
+			children = (
+				896603BC1CA3CD06002D99F7 /* TFDragCollectionView_OC */,
+				896603D61CA3CD07002D99F7 /* TFDragCollectionView_OCTests */,
+				896603E11CA3CD07002D99F7 /* TFDragCollectionView_OCUITests */,
+				896603BB1CA3CD06002D99F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		896603BB1CA3CD06002D99F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896603BA1CA3CD06002D99F7 /* TFDragCollectionView_OC.app */,
+				896603D31CA3CD07002D99F7 /* TFDragCollectionView_OCTests.xctest */,
+				896603DE1CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		896603BC1CA3CD06002D99F7 /* TFDragCollectionView_OC */ = {
+			isa = PBXGroup;
+			children = (
+				896603C01CA3CD06002D99F7 /* AppDelegate.h */,
+				896603C11CA3CD06002D99F7 /* AppDelegate.m */,
+				896603F01CA3CF81002D99F7 /* TFDragCollectionViewFlowLayout */,
+				896603C31CA3CD06002D99F7 /* ViewController.h */,
+				896603C41CA3CD06002D99F7 /* ViewController.m */,
+				896603C61CA3CD06002D99F7 /* Main.storyboard */,
+				896603C91CA3CD06002D99F7 /* Assets.xcassets */,
+				896603CB1CA3CD06002D99F7 /* LaunchScreen.storyboard */,
+				896603CE1CA3CD06002D99F7 /* Info.plist */,
+				896603BD1CA3CD06002D99F7 /* Supporting Files */,
+			);
+			path = TFDragCollectionView_OC;
+			sourceTree = "<group>";
+		};
+		896603BD1CA3CD06002D99F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				896603BE1CA3CD06002D99F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		896603D61CA3CD07002D99F7 /* TFDragCollectionView_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				896603D71CA3CD07002D99F7 /* TFDragCollectionView_OCTests.m */,
+				896603D91CA3CD07002D99F7 /* Info.plist */,
+			);
+			path = TFDragCollectionView_OCTests;
+			sourceTree = "<group>";
+		};
+		896603E11CA3CD07002D99F7 /* TFDragCollectionView_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				896603E21CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.m */,
+				896603E41CA3CD07002D99F7 /* Info.plist */,
+			);
+			path = TFDragCollectionView_OCUITests;
+			sourceTree = "<group>";
+		};
+		896603F01CA3CF81002D99F7 /* TFDragCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				896603F11CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.h */,
+				896603F21CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.m */,
+				896603F41CA3D17F002D99F7 /* TFDragCollectionViewCell.h */,
+				896603F51CA3D17F002D99F7 /* TFDragCollectionViewCell.m */,
+			);
+			path = TFDragCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		896603B91CA3CD06002D99F7 /* TFDragCollectionView_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896603E71CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OC" */;
+			buildPhases = (
+				896603B61CA3CD06002D99F7 /* Sources */,
+				896603B71CA3CD06002D99F7 /* Frameworks */,
+				896603B81CA3CD06002D99F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFDragCollectionView_OC;
+			productName = TFDragCollectionView_OC;
+			productReference = 896603BA1CA3CD06002D99F7 /* TFDragCollectionView_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		896603D21CA3CD07002D99F7 /* TFDragCollectionView_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896603EA1CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OCTests" */;
+			buildPhases = (
+				896603CF1CA3CD07002D99F7 /* Sources */,
+				896603D01CA3CD07002D99F7 /* Frameworks */,
+				896603D11CA3CD07002D99F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896603D51CA3CD07002D99F7 /* PBXTargetDependency */,
+			);
+			name = TFDragCollectionView_OCTests;
+			productName = TFDragCollectionView_OCTests;
+			productReference = 896603D31CA3CD07002D99F7 /* TFDragCollectionView_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		896603DD1CA3CD07002D99F7 /* TFDragCollectionView_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896603ED1CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OCUITests" */;
+			buildPhases = (
+				896603DA1CA3CD07002D99F7 /* Sources */,
+				896603DB1CA3CD07002D99F7 /* Frameworks */,
+				896603DC1CA3CD07002D99F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896603E01CA3CD07002D99F7 /* PBXTargetDependency */,
+			);
+			name = TFDragCollectionView_OCUITests;
+			productName = TFDragCollectionView_OCUITests;
+			productReference = 896603DE1CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896603B21CA3CD06002D99F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ftf;
+				TargetAttributes = {
+					896603B91CA3CD06002D99F7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					896603D21CA3CD07002D99F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 896603B91CA3CD06002D99F7;
+					};
+					896603DD1CA3CD07002D99F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 896603B91CA3CD06002D99F7;
+					};
+				};
+			};
+			buildConfigurationList = 896603B51CA3CD06002D99F7 /* Build configuration list for PBXProject "TFDragCollectionView_OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 896603B11CA3CD06002D99F7;
+			productRefGroup = 896603BB1CA3CD06002D99F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896603B91CA3CD06002D99F7 /* TFDragCollectionView_OC */,
+				896603D21CA3CD07002D99F7 /* TFDragCollectionView_OCTests */,
+				896603DD1CA3CD07002D99F7 /* TFDragCollectionView_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		896603B81CA3CD06002D99F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896603CD1CA3CD06002D99F7 /* LaunchScreen.storyboard in Resources */,
+				896603CA1CA3CD06002D99F7 /* Assets.xcassets in Resources */,
+				896603C81CA3CD06002D99F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603D11CA3CD07002D99F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603DC1CA3CD07002D99F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896603B61CA3CD06002D99F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896603C51CA3CD06002D99F7 /* ViewController.m in Sources */,
+				896603F61CA3D17F002D99F7 /* TFDragCollectionViewCell.m in Sources */,
+				896603C21CA3CD06002D99F7 /* AppDelegate.m in Sources */,
+				896603BF1CA3CD06002D99F7 /* main.m in Sources */,
+				896603F31CA3CFBD002D99F7 /* TFDragCollectionViewFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603CF1CA3CD07002D99F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896603D81CA3CD07002D99F7 /* TFDragCollectionView_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896603DA1CA3CD07002D99F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896603E31CA3CD07002D99F7 /* TFDragCollectionView_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		896603D51CA3CD07002D99F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896603B91CA3CD06002D99F7 /* TFDragCollectionView_OC */;
+			targetProxy = 896603D41CA3CD07002D99F7 /* PBXContainerItemProxy */;
+		};
+		896603E01CA3CD07002D99F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896603B91CA3CD06002D99F7 /* TFDragCollectionView_OC */;
+			targetProxy = 896603DF1CA3CD07002D99F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		896603C61CA3CD06002D99F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896603C71CA3CD06002D99F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		896603CB1CA3CD06002D99F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896603CC1CA3CD06002D99F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		896603E51CA3CD07002D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		896603E61CA3CD07002D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		896603E81CA3CD07002D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFDragCollectionView_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		896603E91CA3CD07002D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFDragCollectionView_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		896603EB1CA3CD07002D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFDragCollectionView_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFDragCollectionView_OC.app/TFDragCollectionView_OC";
+			};
+			name = Debug;
+		};
+		896603EC1CA3CD07002D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFDragCollectionView_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFDragCollectionView_OC.app/TFDragCollectionView_OC";
+			};
+			name = Release;
+		};
+		896603EE1CA3CD07002D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFDragCollectionView_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFDragCollectionView_OC;
+			};
+			name = Debug;
+		};
+		896603EF1CA3CD07002D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFDragCollectionView_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftf.loding.TFDragCollectionView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFDragCollectionView_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896603B51CA3CD06002D99F7 /* Build configuration list for PBXProject "TFDragCollectionView_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896603E51CA3CD07002D99F7 /* Debug */,
+				896603E61CA3CD07002D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896603E71CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896603E81CA3CD07002D99F7 /* Debug */,
+				896603E91CA3CD07002D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		896603EA1CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896603EB1CA3CD07002D99F7 /* Debug */,
+				896603EC1CA3CD07002D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		896603ED1CA3CD07002D99F7 /* Build configuration list for PBXNativeTarget "TFDragCollectionView_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896603EE1CA3CD07002D99F7 /* Debug */,
+				896603EF1CA3CD07002D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896603B21CA3CD06002D99F7 /* Project object */;
+}
